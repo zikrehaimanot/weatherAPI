@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url(weather.jpg);
+}
+
+section{
+  font-size: 25px;
+  background-color: beige;
+  width: 30%;
+  height: 200px;
+}
+
+
+form{
+  margin-left: 550px;
+  margin-top: 300px;
+  background-color: beige;
+  height: 200px;
+  width: 25%;
+}
+#country{
+  margin-left: 30px;
+}
+#country, #city{
+  margin-top: 50px;
+}
+#result{
+  margin-left: 670px;
+  font-size: 50px;
+}
+p{
+  background-color: beige;
+  height: 100px;
+  width: 20%;
+}
+
+
+@media only screen and (max-width:800px){
+  form{
+    margin-left: 0px;
+    margin-top: 300px;
+    background-color: beige;
+    height: 200px;
+    width: 25%;
+  }
+
+  #result{
+    margin-left: 0px;
+    font-size: 0px;
+    border: 2px solid black;
+  }
+}
